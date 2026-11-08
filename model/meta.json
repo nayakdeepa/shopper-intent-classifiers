@@ -1,0 +1,57 @@
+{
+  "target": "Revenue",
+  "feature_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend",
+    "TotalPages",
+    "TotalDuration",
+    "AvgTimePerPage",
+    "ProductPageShare",
+    "Quarter"
+  ],
+  "numeric_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Weekend",
+    "TotalPages",
+    "TotalDuration",
+    "AvgTimePerPage",
+    "ProductPageShare"
+  ],
+  "categorical_columns": [
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Quarter"
+  ],
+  "classes": [
+    "0",
+    "1"
+  ]
+}
